@@ -5,12 +5,7 @@ import { ProductCard } from "@/components/product-card"
 
 export default function DesayunosPage() {
   const products = [
-    {
-      name: "Desayuno Romántico",
-      description:
-        "Perfecto para sorprender a tu pareja con croissants, frutas frescas, flores y una nota personalizada.",
-      image: "/romantic-breakfast-box-with-roses-and-pastries.jpg",
-    },
+
     {
       name: "Desayuno Cumpleaños",
       description: "Celebra con un desayuno especial que incluye muffins, jugos naturales y decoración festiva.",
@@ -20,11 +15,6 @@ export default function DesayunosPage() {
       name: "Desayuno Saludable",
       description: "Opciones nutritivas con granola, yogurt, frutas de estación y frutos secos.",
       image: "/healthy-breakfast-bowl-with-fruits-and-granola.jpg",
-    },
-    {
-      name: "Desayuno Empresarial",
-      description: "Ideal para reuniones de trabajo con café premium, medialunas y jugos naturales.",
-      image: "/business-breakfast-with-coffee-and-croissants.jpg",
     },
     {
       name: "Desayuno Día de la Madre",
