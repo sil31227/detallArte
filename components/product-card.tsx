@@ -12,10 +12,11 @@ interface ProductCardProps {
   images?: string[]
   whatsappMessage?: string
   link?: string
+  imagePosition?: string // Nueva propiedad para posición de imagen
 }
 
-export function ProductCard({ name, description, image, images, whatsappMessage, link }: ProductCardProps) {
-  const whatsappNumber = "5491234567890"
+export function ProductCard({ name, description, image, images, whatsappMessage, link, imagePosition }: ProductCardProps) {
+  const whatsappNumber = "5492494371107"
   const message = whatsappMessage || `Hola, quiero consultar por ${name}`
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`
 
@@ -35,7 +36,7 @@ export function ProductCard({ name, description, image, images, whatsappMessage,
                       src={img}
                       alt={`${name} - Imagen ${index + 1}`}
                       fill
-                      className="object-cover"
+                      className="object-contain"
                     />
                   </div>
                 </CarouselItem>
@@ -49,7 +50,7 @@ export function ProductCard({ name, description, image, images, whatsappMessage,
             src={productImages[0]}
             alt={name}
             fill
-            className="object-cover hover:scale-105 transition-transform duration-300"
+            className={`object-contain hover:scale-105 transition-transform duration-300 ${imagePosition || ''}`}
           />
         )}
       </div>

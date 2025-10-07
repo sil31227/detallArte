@@ -48,7 +48,7 @@ export default function PedidosPage() {
                   </div>
                   <div className="flex flex-col gap-3 mt-6">
                     <Button asChild className="bg-[#25D366] hover:bg-[#20BA5A] text-white">
-                      <a href="https://wa.me/5491234567890" target="_blank" rel="noopener noreferrer">
+                      <a href="https://wa.me/5492494371107" target="_blank" rel="noopener noreferrer">
                         <MessageCircle className="mr-2 h-4 w-4" />
                         Contactar por WhatsApp
                       </a>

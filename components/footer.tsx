@@ -18,7 +18,7 @@ export function Footer() {
             <h4 className="font-semibold text-foreground mb-4">Contacto</h4>
             <div className="space-y-3">
               <a
-                href="https://wa.me/5491234567890"
+                href="https://wa.me/5492494371107"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"

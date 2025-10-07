@@ -38,7 +38,7 @@ export default function PapeleriaPage() {
     {
       name: "Marcadores Personalizados",
       description: "Marcadores de libros únicos con diseños exclusivos y mensajes especiales.",
-      image: "/gift-tags-labels-elegant.jpg",
+      image: "/marcador.jpg",
     },
   ]
 

@@ -106,7 +106,7 @@ export default function EtiquetasStickersPage() {
             diseño perfecto para ti.
           </p>
           <a
-            href="https://wa.me/5491234567890?text=Hola! Me interesan las etiquetas y stickers personalizados"
+            href="https://wa.me/5492494371107?text=Hola! Me interesan las etiquetas y stickers personalizados"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center rounded-md bg-primary px-8 py-3 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition-colors"
